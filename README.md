@@ -1,12 +1,12 @@
-#Create Unattended Ubuntu 18.04 Server Installation ISO
+# Create Unattended Ubuntu 18.04 Server Installation ISO
 
-##Automate ubuntu installation and LXD initialization using predefined configuration.
+## Automate ubuntu installation and LXD initialization using predefined configuration.
 
-####ToDo
+#### ToDo
 
 Borrow heavily from existing projects as to not reinvent the wheel and expedite delivery of a working environment.
 
-####Instructions
+#### Instructions
 
 1. Install Ubuntu 18.04 somewhere to build the ISO.
 2. Install and configure git client.
@@ -18,7 +18,7 @@ Borrow heavily from existing projects as to not reinvent the wheel and expedite 
 8. Make executable: chmod +x create-iso.sh
 9. Now execute: sudo ./create-iso.sh
 
-####What should create-iso.sh do exactly?
+#### What should create-iso.sh do exactly?
 
 create-iso.sh should:
 1. Set important variables using config file
@@ -28,7 +28,7 @@ create-iso.sh should:
 5. Amend lxdseed.cfg file using lxdhost file
 6. Create ISO in directory specified in config file.
 
-###How To Install Using The Created ISO
+### How To Install Using The Created ISO
 
 Target install host needs MINIMUM two disk volumes: One for root system (ext4) and one for container storage filesystem (currently btrfs or zfs)
 Future options may include ability to define multiple pre-initialized storage volumes, seperate /, /home, and /snap volumes.
