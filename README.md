@@ -66,5 +66,5 @@ The default 'ubuntu' account has a NOPASSWD directive in sudoers, so sudo is use
  - print pertinent info
 
 ### Notes
-Most likely my last push unless GitHub contacts me about my lost password.
+Thank You GitHub Developer Support!
 
